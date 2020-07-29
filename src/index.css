@@ -4,7 +4,7 @@
   }
   
   :root {
-    --primary: #2A7AE4;
+    --primary: #ff1100;
     --black: #000000;
     --blackLighter: #9E9E9E;
     --grayLight: #F5F5F5;
@@ -23,3 +23,9 @@
   a {
     color: inherit;
   } 
+
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
